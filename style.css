@@ -5,11 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h4{
+    height: 10px;
+}
 h2{
     font-size: 40px;
 }
 p{
+    text-align: justify;
     color: dimgray;
+    padding-right: 40px;
 }
 .orange-highlight{
     color: orange;
@@ -38,6 +43,7 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+
 }
 .dream-area{
     background-image: url("images/dream-bg.png");
@@ -64,4 +70,10 @@ section{
     border-left: 10px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+.experience-line{
+    padding-left: 90px;
+}
+footer p{
+    text-align: center;
 }
